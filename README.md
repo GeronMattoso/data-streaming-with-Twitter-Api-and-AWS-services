@@ -1,9 +1,10 @@
+## Resumo:
+#### 1 - Streaming de dados utilizando a API do twitter e serviços AWS.
+#### 2 - Análise de sentimento de tweets sobre o presidente do brasil utilizando pyspark para a classificação.
+#### 3 - importação dos dados para o PowerBI, e criação de dashboard com os resultados:
 
-### 1 - Streaming de dados utilizando a API do twitter e serviços AWS.
-### 2 - Análise de sentimento de tweets sobre o presidente do brasil utilizando pyspark para a classificação.
-### 3 - importação dos dados para o power powerBI, e criação de dashboard com os resultados:
 
-#### Tecnologias:
+## Tecnologias:
 - AWS Glue
 - AWS S3
 - AWS Athena
@@ -12,17 +13,20 @@
 - Jupiter notebook
 - Power BI
 
-#### Linguagens:
+
+## Linguagens:
 - python + spark
 
-#### Bibliotecas:
+
+## Bibliotecas:
 - tweepy
 - boto3
 - pyspark
 - datatime
 - json
 
-#### SCRIPTS
+
+## SCRIPTS
 
 O script RAW é responsável por extrair tweets da api do tweeter e jogar em um bucket do AWS S3, criando um arquivo json novo a cada 100 tweets coletados.
 
