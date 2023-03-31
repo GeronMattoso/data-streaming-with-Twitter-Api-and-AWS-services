@@ -33,3 +33,7 @@ O script RAW é responsável por extrair tweets da api do tweeter e jogar em um 
 O script REF, carrega os dados do bucket RAW transformando-os em um dataframe do spark para realizar a análise de sentimento dos textos. Ele cria duas novas colunas sendo "simbolo" e "sentimento" para classificar os dados, salvando os resultados em outro bucket chamado ref.
 
 Os scripts foram executados utilizando jobs do serviço AWS glue, porém é possivel a adaptação para a IDE VsCode ou semelhante, sendo nescessário a configuração dos dados de acesso a nuvem pelo AWS CLI.
+
+Os dados foram importados pelo AWS Athena, utilizando uma conexão ODBC direta com o PowerBI https://docs.aws.amazon.com/athena/latest/ug/connect-with-odbc.html.
+
+DashBoard gerado: ![DashBoard](https://user-images.githubusercontent.com/50059346/229215595-66148737-0885-4453-b115-79a7ce72f41d.png)
