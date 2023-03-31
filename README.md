@@ -1,7 +1,7 @@
 
-1 - Streaming de dados utilizando a API do twitter e serviços AWS.
-2 - Análise de sentimento de tweets sobre o presidente do brasil utilizando pyspark para a classificação.
-3 - importação dos dados para o power powerBI, e criação de dashboard com os resultados:
+##1 - Streaming de dados utilizando a API do twitter e serviços AWS.
+##2 - Análise de sentimento de tweets sobre o presidente do brasil utilizando pyspark para a classificação.
+##3 - importação dos dados para o power powerBI, e criação de dashboard com os resultados:
 
 tecnologias:
 - AWS Glue
