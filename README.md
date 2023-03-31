@@ -36,4 +36,5 @@ Os scripts foram executados utilizando jobs do serviço AWS glue, porém é poss
 
 Os dados foram importados pelo AWS Athena, utilizando uma conexão ODBC direta com o PowerBI https://docs.aws.amazon.com/athena/latest/ug/connect-with-odbc.html.
 
-DashBoard gerado: ![DashBoard](https://user-images.githubusercontent.com/50059346/229215595-66148737-0885-4453-b115-79a7ce72f41d.png)
+DashBoard gerado: ![DashBoard](https://user-images.githubusercontent.com/50059346/229216144-3080fb2d-0847-4ed6-a33f-e1c391f82472.png)
+
